@@ -545,13 +545,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('Channel 👀', url='https://t.me/moviesss4ers'),
-            InlineKeyboardButton('Group 👀', url='https://t.me/moviei43')
+            InlineKeyboardButton('Channel 👀', url='https://t.me/BichuHub'),
+            InlineKeyboardButton('Group 👀', url='https://t.me/Xyz_Movies_grouo')
         ], [
             InlineKeyboardButton('Help ⚡', callback_data='help'),
             InlineKeyboardButton('About Me 💥', callback_data='about')
         ], [
-            InlineKeyboardButton('Any Queries DM Here ✅',url='https://t.me/Link_Reporter_Bot')
+            InlineKeyboardButton('Any Queries DM Here ✅',url='https://t.me/TechnicalBichu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -579,7 +579,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Developer 😎', url='https://t.me/Nexus_Shubhu'),
+            InlineKeyboardButton('Developer 😎', url='https://t.me/TechnicalBichu'),
             InlineKeyboardButton('Source Code', url='https://t.me/TeamEvamaria')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -818,7 +818,7 @@ async def auto_filter(client, msg, spoll=False):
              )
 
     btn.append([
-                InlineKeyboardButton("👉 How To Download 👈 ", url=f"https://t.me/moviesss4ers/14"),
+                InlineKeyboardButton("⚡️ How To Download ⚡️ ", url=f"https://t.me/How_To_Open_Links_23"),
             ])
     btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])     
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
