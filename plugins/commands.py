@@ -90,7 +90,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Any Queries DM Here ✅', url='https://t.me/Link_Reporter_Bot')
+            InlineKeyboardButton('Any Queries DM Here ✅', url='https://t.me/TechnicalBichu')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Channel 👀', url='https://t.me/BichuHub')
