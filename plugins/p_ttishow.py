@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('Help ⚡', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('My Channel 👀', url='https://t.me/moviesss4ers_Channel')
+            InlineKeyboardButton('My Channel 👀', url='https://t.me/BichuHub')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
