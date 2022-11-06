@@ -226,7 +226,7 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("👉 How To Download 👈 ", url=f"hhttps://t.me/moviesss4ers/14")])
+            [InlineKeyboardButton("⚡️ How To Download ⚡️", url=f"hhttps://t.me/How_To_Open_Links_23")])
         btn.append(
             [InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     elif off_set is None:
@@ -234,7 +234,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append(
-            [InlineKeyboardButton("👉 How To Download 👈 ", url=f"https://t.me/moviesss4ers/14")])
+            [InlineKeyboardButton("⚡️ How To Download ⚡️ ", url=f"https://t.me/Hoe_To_Open_Links_23")])
         btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     else:
         btn.append(
@@ -244,7 +244,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.append([InlineKeyboardButton("👉 How To Download 👈 ", url=f"https://t.me/moviesss4ers/14")])
+        btn.append([InlineKeyboardButton("⚡️ How To Download ⚡️", url=f"https://t.me/How_To_Open_Links_23")])
         btn.append([InlineKeyboardButton('Ok Close it 🙂', callback_data='close_data')])
     try:
         await query.edit_message_reply_markup(
@@ -546,7 +546,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('Channel 👀', url='https://t.me/BichuHub'),
-            InlineKeyboardButton('Group 👀', url='https://t.me/Xyz_Movies_grouo')
+            InlineKeyboardButton('Group 👀', url='https://t.me/Xyz_Movies_group')
         ], [
             InlineKeyboardButton('Help ⚡', callback_data='help'),
             InlineKeyboardButton('About Me 💥', callback_data='about')
