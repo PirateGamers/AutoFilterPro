@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Any Queries DM Here ✅', url='https://t.me/TechnicalBichu')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Channel 👀', url='https://t.me/BichuHub'),
             InlineKeyboardButton('Group 👀', url='https://t.me/Xyz_Movies_Group')
@@ -50,7 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('Help ⚡', callback_data='help'),
             InlineKeyboardButton('About Me 🙈', callback_data='about')
             ],[
-            InlineKeyboardButton('Any Queries DM Here ✅',url='https://t.me/Link_Reporter_Bot')
+            InlineKeyboardButton('✨️ Any Queries DM Here ✨️',url='https://t.me/TechnicalBichu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
