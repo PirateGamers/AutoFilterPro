@@ -376,7 +376,7 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-shortz = shortzy.Shortzy(SHORTENER_API, "omegalinks.in")
+shortz = shortzy.Shortzy(SHORTENER_API, "MdiskShortner.link")
 async def get_shortlink(link):
     if SHORTENER_API:
         if LONG_DROPLINK_URL == "True" or LONG_DROPLINK_URL is True:
